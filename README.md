@@ -88,8 +88,9 @@ ros2 launch mobile_robot navigation_launch.py
 ## 🖼️ Visual Demo
 
 ### Map_creation
-
+[Watch Map_Creation](media/map.mp4)
 ### Navigation
+[Watch Navigation](media/nav.mp4)
 
 ---
 ## 💡 Notes
@@ -107,3 +108,13 @@ ros2 launch mobile_robot navigation_launch.py
 - [Gazebo Simulator](http://gazebosim.org/)  
 - [ROS2 Navigation2 Stack](https://navigation.ros.org/)  
 - [Cartographer ROS2 SLAM](https://google-cartographer.readthedocs.io/en/latest/)
+
+
+
+---
+## 📧 Contact
+**Manar Daghsni**  
+📧 manardaghsni@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/daghsni-manar)
+
+---
