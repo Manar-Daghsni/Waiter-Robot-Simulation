@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="restaurant_world">
+    <!-- light and ground -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- TurtleBot3 Waffle -->
+    <include>
+      <uri>model://turtlebot3_waffle</uri>
+      <pose>0 0 0 0 0 0</pose>
+    </include>
+
+    <!-- Simple table model (box) -->
+    <model name="table_1">
+      <pose>2 0 0.75 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="coll">
+          <geometry>
+            <box>
+              <size>1.2 0.8 0.05</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="vis">
+          <geometry>
+            <box>
+              <size>1.2 0.8 0.05</size>
+            </box>
+          </geometry>
+        </visual>
+      </link>
+      <!-- legs -->
+      <link name="leg1">
+        <pose>2.5 0.35 0.4 0 0 0</pose>
+        <collision name="coll_leg1">
+          <geometry>
+            <cylinder><radius>0.03</radius><length>0.8</length></cylinder>
+          </geometry>
+        </collision>
+        <visual name="vis_leg1">
+          <geometry>
+            <cylinder><radius>0.03</radius><length>0.8</length></cylinder>
+          </geometry>
+        </visual>
+      </link>
+      <!-- copie les legs si besoin -->
+    </model>
+
+    <!-- another table -->
+    <model name="table_2">
+      <pose>-1.5 1.2 0.75 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="coll">
+          <geometry>
+            <box><size>1.0 0.6 0.05</size></box>
+          </geometry>
+        </collision>
+        <visual name="vis">
+          <geometry>
+            <box><size>1.0 0.6 0.05</size></box>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+
+    <!-- add walls or counters as boxes if needed -->
+    <model name="counter">
+      <pose>0 -3 0.6 0 0 0</pose>
+      <static>true</static>
+      <link name="link">
+        <collision name="coll">
+          <geometry><box><size>3 0.5 1.2</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>3 0.5 1.2</size></box></geometry>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

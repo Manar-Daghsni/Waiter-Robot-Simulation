@@ -1,0 +1,44 @@
+[0.280s] Invoking command in '/home/manar/ws_mobile/build/my_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manar/ws_mobile/install/mobile_robot:/home/manar/ros2_ws/install/server_robot_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manar/ws_mobile/src/my_worlds -DCMAKE_INSTALL_PREFIX=/home/manar/ws_mobile/install/my_worlds
+[0.346s] -- The C compiler identification is GNU 13.3.0
+[0.412s] -- The CXX compiler identification is GNU 13.3.0
+[0.430s] -- Detecting C compiler ABI info
+[0.537s] -- Detecting C compiler ABI info - done
+[0.548s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.548s] -- Detecting C compile features
+[0.549s] -- Detecting C compile features - done
+[0.559s] -- Detecting CXX compiler ABI info
+[0.682s] -- Detecting CXX compiler ABI info - done
+[0.695s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.695s] -- Detecting CXX compile features
+[0.696s] -- Detecting CXX compile features - done
+[0.701s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.895s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.173s] -- Configuring done (0.9s)
+[1.176s] -- Generating done (0.0s)
+[1.178s] -- Build files have been written to: /home/manar/ws_mobile/build/my_worlds
+[1.184s] Invoked command in '/home/manar/ws_mobile/build/my_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manar/ws_mobile/install/mobile_robot:/home/manar/ros2_ws/install/server_robot_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/manar/ws_mobile/src/my_worlds -DCMAKE_INSTALL_PREFIX=/home/manar/ws_mobile/install/my_worlds
+[1.185s] Invoking command in '/home/manar/ws_mobile/build/my_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manar/ws_mobile/install/mobile_robot:/home/manar/ros2_ws/install/server_robot_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manar/ws_mobile/build/my_worlds -- -j8 -l8
+[1.243s] Invoked command in '/home/manar/ws_mobile/build/my_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manar/ws_mobile/install/mobile_robot:/home/manar/ros2_ws/install/server_robot_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/manar/ws_mobile/build/my_worlds -- -j8 -l8
+[1.256s] Invoking command in '/home/manar/ws_mobile/build/my_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manar/ws_mobile/install/mobile_robot:/home/manar/ros2_ws/install/server_robot_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manar/ws_mobile/build/my_worlds
+[1.266s] -- Install configuration: ""
+[1.266s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/launch
+[1.267s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/launch/turtlebot3_restaurant.launch.py
+[1.267s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/worlds
+[1.267s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/worlds/restaurant.world
+[1.267s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/ament_index/resource_index/package_run_dependencies/my_worlds
+[1.267s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/ament_index/resource_index/parent_prefix_path/my_worlds
+[1.267s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/environment/ament_prefix_path.sh
+[1.267s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/environment/ament_prefix_path.dsv
+[1.267s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/environment/path.sh
+[1.268s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/environment/path.dsv
+[1.268s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/local_setup.bash
+[1.268s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/local_setup.sh
+[1.268s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/local_setup.zsh
+[1.268s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/local_setup.dsv
+[1.268s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/package.dsv
+[1.268s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/ament_index/resource_index/packages/my_worlds
+[1.268s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.268s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/cmake/my_worldsConfig.cmake
+[1.269s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/cmake/my_worldsConfig-version.cmake
+[1.269s] -- Installing: /home/manar/ws_mobile/install/my_worlds/share/my_worlds/package.xml
+[1.271s] Invoked command in '/home/manar/ws_mobile/build/my_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/manar/ws_mobile/install/mobile_robot:/home/manar/ros2_ws/install/server_robot_sim:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/manar/ws_mobile/build/my_worlds
