@@ -13,11 +13,11 @@ Simulates a **waiter robot** in a **custom restaurant** using **Gazebo**, **ROS2
 
 Key features:
 
-- 🔹 Custom restaurant Gazebo world  
-- 🔹 Mobile robot with navigation & obstacle avoidance  
-- 🔹 ROS2 nodes for robot control & simulation  
-- 🔹 **Cartographer SLAM** for mapping before navigation  
-- 🔹 Path planning & RViz2 visualization  
+ 🔹 Custom restaurant Gazebo world  
+ 🔹 Mobile robot with navigation & obstacle avoidance  
+ 🔹 ROS2 nodes for robot control & simulation  
+ 🔹 **Cartographer SLAM** for mapping before navigation  
+ 🔹 Path planning & RViz2 visualization  
 
 ---
 
